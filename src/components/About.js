@@ -77,11 +77,15 @@ const About = () => {
             </div>
           </div>
           {/* fin  */}
-          <div className="flex gap-x-8 items-center">
+          {/* <div className="flex gap-x-8 items-center">
+            <button className="btn btn-lg" onClick={handleClick}>Whatsapp Me</button>
+            <a className="text-gradient btn-link" href="#">My Portfolio</a>
+          </div> */}
+        </div>
+        <div className="flex gap-x-8 items-center">
             <button className="btn btn-lg" onClick={handleClick}>Whatsapp Me</button>
             <a className="text-gradient btn-link" href="#">My Portfolio</a>
           </div>
-        </div>
       </motion.div>
       </div>
     </div>
